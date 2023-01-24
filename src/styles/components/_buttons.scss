@@ -1,0 +1,17 @@
+button {
+    background-color: #4F2AC3;
+    width: 188px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color:#fff;
+    cursor: pointer;
+    border: none;
+    white-space: nowrap;
+    border-radius: 0px 10px 0px;
+
+    &:hover{
+        background-image: linear-gradient(rgb(243, 99, 99), rgb(108, 108, 214));
+    }
+}

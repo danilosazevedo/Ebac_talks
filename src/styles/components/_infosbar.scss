@@ -1,0 +1,54 @@
+.infos-bar {
+    display: flex;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    align-items: center;
+    position: absolute;
+
+
+    &__info {
+        margin: 24px;
+        text-align: start;
+        display: flex;
+        list-style: none;
+        gap: 40px;
+
+        b {
+            display: block;
+            margin-bottom: 8px;
+        }
+    }
+
+    @media (max-width:640px) {
+        display: block;
+
+        .infos-bar {
+            &__info {
+                display: block;
+
+                &__item {
+                    margin-bottom: 24px;
+                }
+
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media (max-width:1024px) {
+        display: flex;
+        align-items: center;
+
+
+        &__info {
+            gap: 15px;
+        }
+        button {
+            width: 50%;
+        }
+
+    }
+}

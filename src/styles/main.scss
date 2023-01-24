@@ -1,4 +1,7 @@
 @use '_hero';
+@use '/src/styles/components/_infosbar';
+@use '/src/styles/components/_buttons';
+@use '_event.scss';
 
 * {
     margin: 0;

@@ -1,0 +1,35 @@
+.content {
+    background-image: linear-gradient(red,blue);
+
+    &__item {
+        display: flex;
+        align-items: center;
+        height: 377px;
+        margin: 0 100px;
+
+        &__text{
+            color: #fff;
+            text-align: justify;
+            width: 800px;
+            height: 180px;
+
+            h3{
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    img {
+        margin:50px;
+        height: 196px;
+        width: 400px;
+    }
+
+    @media (max-width:640px){
+            display: block;
+
+        &__img{
+            width: 100%;
+        }
+    }
+}
